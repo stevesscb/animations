@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font: inherit;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  color: #3d9069;
+  padding: 0.70rem 1.5rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  color: #fff;
+  background: #2b503e;
+  border-color: #000000;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:disabled {
+  color: white;
+  background: gray;
+  cursor: default;
+}

@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 40%;
+  max-width: 40rem;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  margin: 0;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  padding: 0.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #4f005f;
+}
+
+.hasError {
+  border-color: red !important;
+}
+
+.helpText {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.errorText {
+  color: red;
+}
+
+.buttonWrapper {
+  text-align: center;
+}
+
+.button {
+  font: inherit;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fff;
+  color: #3d9069;
+  padding: 0.70rem 1.5rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.button:hover,
+.button:active {
+  color: #fff;
+  background: #2b503e;
+  border-color: #000000;
+}
+
+.button:focus {
+  outline: none;
+}
