@@ -4,6 +4,7 @@ import Card from './components/UI/Card';
 import RotateBoardButton from './components/UI/RotateBoardButton';
 import BoardSizeInput from './components/UI/BoardSizeInput';
 import Board from './components/UI/Board';
+import Cards from './components/UI/Cards';
 
 function App() {
   const [showBoard, setShowBoard] = useState(false);
@@ -35,6 +36,7 @@ function App() {
       <Card />
       {showBoard ? (
         <>
+          <Cards />
           <RotateBoardButton
             onClick={handleRotateBoard}
             disable={disableRotation}

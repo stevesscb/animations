@@ -8,5 +8,6 @@ html {
 }
 
 body {
+  min-height: 90vh;
   margin: 0;
 }
