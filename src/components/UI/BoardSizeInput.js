@@ -18,14 +18,14 @@ const BoardSizeInput = (props) => {
   };
 
   // extract value from event and update size value
-  const handleChange = (e) => {
-    setSize(Number(e.target.value));
+  const handleChange = (event) => {
+    setSize(Number(event.target.value));
   };
 
   // check value with validateSize function
   // if validation passed, lift size state to parent
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
     if (validateSize(size)) {
       props.onSubmit(size);
